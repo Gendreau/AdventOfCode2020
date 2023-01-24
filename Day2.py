@@ -7,4 +7,4 @@ with open('./inputs/test.txt') as f:
         a, b, c, x, *d, = re.split('[ :-]', line.strip())
         data.append(list(zip(a, b, c, d)))
 
-print([0][2])
+print(data[0][2])
